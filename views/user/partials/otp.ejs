@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>4-Digit OTP Verification</title>
+  <link rel="stylesheet" type="text/css" href="/public/stylesheets/otp.css">
+</head>
+<body>
+  <div class="otp-container">
+    <h1> OTP Verification</h1>
+    <p>Please enter the 4-digit OTP sent to your email:</p>
+    <form id="otp-form" method="post">
+      <input type="number" name="otp" id="otp-input" placeholder="Enter OTP" min="1000" max="9999" required>
+      <button type="submit">Verify OTP</button>
+    </form>
+   
+    <div id="message"></div>
+  </div>
+</body>
+</html>
